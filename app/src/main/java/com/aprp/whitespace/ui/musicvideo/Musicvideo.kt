@@ -28,18 +28,13 @@ class Musicvideo : Fragment() {
         val mLayoutManager: RecyclerView.LayoutManager = LinearLayoutManager(activity)
         rv_mv.layoutManager = mLayoutManager
         val videoIds = arrayOf(
-            "6JYIGclVQdw",
-            "LvetJ9U_tVY",
-            "6JYIGclVQdw",
-            "LvetJ9U_tVY",
-            "6JYIGclVQdw",
-            "LvetJ9U_tVY",
-            "6JYIGclVQdw",
-            "LvetJ9U_tVY",
-            "6JYIGclVQdw",
-            "LvetJ9U_tVY",
-            "6JYIGclVQdw",
-            "LvetJ9U_tVY"
+            "KBtk5FUeJbk",
+            "jJPMnTXl63E",
+            "kcc9Kfip2uw",
+            "CJC5PY5erzI",
+            "FcOctsNXyjk",
+            "9JSIBwQqD70",
+            "t0Bt3a-MLGs"
         )
         val recyclerViewAdapter: RecyclerView.Adapter<*> =
             MVAdapter(videoIds, this.lifecycle)
