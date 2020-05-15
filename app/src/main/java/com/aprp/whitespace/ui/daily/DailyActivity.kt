@@ -17,14 +17,14 @@ class DailyActivity : Fragment() {
 
     private val mDailyActivities = DailyAdapter(
         listOf(
-            DailyData("Bangun Tidur", R.drawable.ic_menu_profile),
-            DailyData("Makan", R.drawable.ic_menu_profile),
-            DailyData("Minum", R.drawable.ic_menu_profile),
-            DailyData("Mengerjakan Tugas", R.drawable.ic_menu_profile),
-            DailyData("Sholat", R.drawable.ic_menu_profile),
-            DailyData("Tidur Siang", R.drawable.ic_menu_profile),
-            DailyData("Mandi", R.drawable.ic_menu_profile),
-            DailyData("Main Game", R.drawable.ic_menu_profile)
+            DailyData("Bangun Tidur", R.drawable.ic_tidur),
+            DailyData("Makan", R.drawable.ic_makan),
+            DailyData("Minum", R.drawable.ic_minum),
+            DailyData("Mengerjakan Tugas", R.drawable.ic_tugas),
+            DailyData("Sholat", R.drawable.ic_sholat),
+            DailyData("Tidur Siang", R.drawable.ic_tidur),
+            DailyData("Mandi", R.drawable.ic_mandi),
+            DailyData("Main Game", R.drawable.ic_game)
         )
     )
 
