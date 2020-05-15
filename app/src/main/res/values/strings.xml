@@ -27,4 +27,6 @@
     </string>
 
     <string name="daily_friendlist">Friend List</string>
+    <string name="profile_findme">Find Me</string>
+    <string name="profile_aboutapps">About Apps</string>
 </resources>

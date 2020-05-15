@@ -1,5 +1,12 @@
 package com.aprp.whitespace
 
+/*
+NAMA    : ANGGA PUJA RESTU PRAKASA
+NIM     : 10117130
+KELAS   : IF4
+TANGGAL PENGERJAAN : 14 - MEI - 2020
+*/
+
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

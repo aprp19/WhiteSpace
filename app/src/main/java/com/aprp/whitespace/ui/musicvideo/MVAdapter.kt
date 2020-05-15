@@ -1,5 +1,12 @@
 package com.aprp.whitespace.ui.musicvideo
 
+/*
+NAMA    : ANGGA PUJA RESTU PRAKASA
+NIM     : 10117130
+KELAS   : IF4
+TANGGAL PENGERJAAN : 14 - MEI - 2020
+*/
+
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.lifecycle.Lifecycle

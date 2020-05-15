@@ -1,5 +1,12 @@
 package com.aprp.whitespace.ui.home
 
+/*
+NAMA    : ANGGA PUJA RESTU PRAKASA
+NIM     : 10117130
+KELAS   : IF4
+TANGGAL PENGERJAAN : 14 - MEI - 2020
+*/
+
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -12,15 +19,11 @@ import com.aprp.whitespace.R
 
 class HomeFragment : Fragment() {
 
-    private lateinit var homeViewModel: HomeViewModel
-
     override fun onCreateView(
             inflater: LayoutInflater,
             container: ViewGroup?,
             savedInstanceState: Bundle?
     ): View? {
-        homeViewModel =
-                ViewModelProviders.of(this).get(HomeViewModel::class.java)
         val root = inflater.inflate(R.layout.fragment_home, container, false)
         return root
     }
