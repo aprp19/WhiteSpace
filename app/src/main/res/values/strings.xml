@@ -25,4 +25,6 @@
     <string name="home_interest_isi">
         Makanan dan Minuman\nUnity3D dan Unity2D\nCS:GO dan game First Person Shooter\nHobi di rumah\n
     </string>
+
+    <string name="daily_friendlist">Friend List</string>
 </resources>
