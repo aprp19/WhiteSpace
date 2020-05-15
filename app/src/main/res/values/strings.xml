@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">White Space</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Angga Puja Restu Prakasa</string>
+    <string name="nav_header_subtitle">Aplikasi UTS AKB</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_dailyActivity">Daily Activity</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_musicVideo">Music and Video</string>
+    <string name="menu_profile">Profile</string>
+
+    <string name="home_second">Home Second</string>
+
+    <string name="home_nama">Nama : Angga Puja Restu Prakasa</string>
+    <string name="home_tgllahir">Jambi - 19 Februari 1999</string>
+    <string name="home_deskripsi">Deskripsi :</string>
+    <string name="home_deskripsi_isi">
+        Anak ke 3 dari 4 bersaudara\nPegiat Game dan Game Developers\nJarang keluar rumah\nLulusan TKJ di SMKN4 Bandung\n
+    </string>
+    <string name="home_interest">Tertarik Dengan :</string>
+    <string name="home_interest_isi">
+        Makanan dan Minuman\nUnity3D dan Unity2D\nCS:GO dan game First Person Shooter\nHobi di rumah\n
+    </string>
+</resources>

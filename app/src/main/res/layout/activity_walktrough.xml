@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Walktrough.WalktroughActivity"
+    >
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <com.afollestad.viewpagerdots.DotsIndicator
+            android:id="@+id/dots"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_gravity="bottom" />
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="HardcodedText"
+            >
+
+            <TextView
+                android:id="@+id/pageOne"
+                android:text="It's"
+                style="@style/PageText"
+                />
+
+            <TextView
+                android:id="@+id/pageTwo"
+                android:text="All"
+                style="@style/PageText"
+                />
+
+            <TextView
+                android:id="@+id/pageThree"
+                android:text="About"
+                android:textColor="@color/black"
+                style="@style/PageText"
+                />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/pageFour"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/tv1"
+                    android:text="You"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    style="@style/PageText"
+                    />
+
+                <ImageView
+                    android:id="@+id/bt1"
+                    android:src="@drawable/ic_slideshow_black_24dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tv1"
+                    app:layout_constraintVertical_bias="0.13"
+                    tools:ignore="ContentDescription" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.viewpager.widget.ViewPager>
+    </FrameLayout>
+
+</LinearLayout>
