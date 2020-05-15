@@ -1,14 +1,11 @@
 package com.aprp.whitespace.ui.daily
 
-import android.content.Context
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
 import com.aprp.whitespace.R
 import kotlinx.android.synthetic.main.fragment_daily.*
 
@@ -30,16 +27,16 @@ class DailyActivity : Fragment() {
 
     private val mFriendList = FriendAdapter(
         listOf(
-            Friend("Nadia Rizky Amalia Pattiasina", "Family", R.drawable.ic_menu_profile),
-            Friend("Abe Ekayani Pratiwi","Family", R.drawable.ic_menu_profile),
-            Friend("Sabri","Family", R.drawable.ic_menu_profile),
-            Friend("Anugrah Dwi Cahya Prakasa","Family", R.drawable.ic_menu_profile),
-            Friend("Gigih Surya Prakasa","Family", R.drawable.ic_menu_profile),
-            Friend("Albarokah Muhammad G. P.","Family", R.drawable.ic_menu_profile),
-            Friend("Okeu Agnia Pratama","Family", R.drawable.ic_menu_profile),
+            Friend("Nadia Rizky Amalia Pattiasina", "Family", R.drawable.content_friend_nadia),
+            Friend("Abe Ekayani Pratiwi","Family", R.drawable.content_friend_ibubapak),
+            Friend("Sabri","Family", R.drawable.content_friend_ibubapak),
+            Friend("Anugrah Dwi Cahya Prakasa","Family", R.drawable.content_friend_anugrah),
+            Friend("Gigih Surya Prakasa","Family", R.drawable.content_friend_gigihokeu),
+            Friend("Albarokah Muhammad G. P.","Family", R.drawable.content_friend_albar),
+            Friend("Okeu Agnia Pratama","Family", R.drawable.content_friend_gigihokeu),
             Friend("Fazar Ingsan","Friend", R.drawable.ic_menu_profile),
-            Friend("M. Rifa Fauzi","Friend", R.drawable.ic_menu_profile),
-            Friend("Ivan Ongko","Friend", R.drawable.ic_menu_profile)
+            Friend("M. Rifa Fauzi","Friend", R.drawable.content_friend_rifa),
+            Friend("Ivan Ongko","Friend", R.drawable.content_friend_ivan)
         )
     )
 
